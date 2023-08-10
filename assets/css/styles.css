@@ -1,0 +1,38 @@
+.input{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+#filtro{
+    width: 25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#total_propiedades{
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(skyblue, 10%, white);
+}
